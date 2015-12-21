@@ -313,6 +313,36 @@
 <vertex x="-8.255" y="-1.27"/>
 </polygon>
 </package>
+<package name="PTH_2.54MM_01X07">
+<description>&lt;b&gt;Description:&lt;/b&gt; Package for 2.54MM Pitch Header 7 Position. Based on 4UCON 00834.&lt;br&gt;</description>
+<pad name="P$1" x="-7.62" y="0" drill="1"/>
+<wire x1="-8.87" y1="1.25" x2="8.87" y2="1.25" width="0.127" layer="21"/>
+<wire x1="8.87" y1="1.25" x2="8.87" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="8.87" y1="-1.25" x2="-8.235" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-8.235" y1="-1.25" x2="-8.87" y2="-0.615" width="0.127" layer="21"/>
+<wire x1="-8.87" y1="-0.615" x2="-8.87" y2="1.25" width="0.127" layer="21"/>
+<text x="-8.87" y="1.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<pad name="P$2" x="-5.08" y="0" drill="1"/>
+<pad name="P$3" x="-2.54" y="0" drill="1"/>
+<pad name="P$4" x="0" y="0" drill="1"/>
+<pad name="P$5" x="2.54" y="0" drill="1"/>
+<pad name="P$6" x="5.08" y="0" drill="1"/>
+<pad name="P$7" x="7.62" y="0" drill="1"/>
+<text x="7.62" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
+<text x="5.08" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
+<text x="2.54" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL04</text>
+<text x="0" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
+<text x="-2.54" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
+<text x="-7.62" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL00</text>
+<text x="-5.08" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
+<polygon width="0.127" layer="21">
+<vertex x="-9.525" y="-1.905"/>
+<vertex x="-8.89" y="-1.905"/>
+<vertex x="-8.255" y="-1.27"/>
+<vertex x="-8.89" y="-0.635"/>
+<vertex x="-9.525" y="-1.27"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PTH_01X02">
@@ -492,6 +522,36 @@
 <text x="0.508" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">PIN04</text>
 <text x="0.508" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">PIN05</text>
 </symbol>
+<symbol name="PTH_01X07">
+<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for Header 7 Position 1 Row.&lt;br&gt;</description>
+<pin name="PIN1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<wire x1="0" y1="-16.51" x2="16.51" y2="-16.51" width="0.127" layer="94"/>
+<pin name="PIN0" x="-2.54" y="0" visible="off" length="short"/>
+<wire x1="0" y1="1.27" x2="0" y2="-16.51" width="0.127" layer="94"/>
+<wire x1="16.51" y1="-16.51" x2="16.51" y2="1.27" width="0.127" layer="94"/>
+<wire x1="16.51" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<pin name="PIN2" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="PIN3" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="PIN4" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="PIN5" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="PIN6" x="-2.54" y="-15.24" visible="off" length="short"/>
+<text x="7.62" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL05</text>
+<text x="7.62" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL04</text>
+<text x="7.62" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL03</text>
+<text x="7.62" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL01</text>
+<text x="7.62" y="0" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL00</text>
+<text x="7.62" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL02</text>
+<text x="0.508" y="0" size="1.016" layer="97" font="vector" align="center-left">PIN00</text>
+<text x="0.508" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">PIN01</text>
+<text x="0.508" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">PIN02</text>
+<text x="0.508" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">PIN03</text>
+<text x="0.508" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">PIN04</text>
+<text x="0.508" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">PIN05</text>
+<text x="0.508" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">PIN06</text>
+<text x="7.62" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL06</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HEADER_01X02" prefix="J" uservalue="yes">
@@ -646,6 +706,37 @@
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_01X07" prefix="J" uservalue="yes">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Connectors&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Header Connector with 7 Positions and 01 Rows. Use the LABEL Attribute to label the pin on the schematic and PCB. You can remove the attributes on the PCB by using the SMASH function on the part and then deleting the text.&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTH_01X07" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_2.54MM" package="PTH_2.54MM_01X07">
+<connects>
+<connect gate="G$1" pin="PIN0" pad="P$1"/>
+<connect gate="G$1" pin="PIN1" pad="P$2"/>
+<connect gate="G$1" pin="PIN2" pad="P$3"/>
+<connect gate="G$1" pin="PIN3" pad="P$4"/>
+<connect gate="G$1" pin="PIN4" pad="P$5"/>
+<connect gate="G$1" pin="PIN5" pad="P$6"/>
+<connect gate="G$1" pin="PIN6" pad="P$7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL00" value="" constant="no"/>
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2374,9 +2465,9 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <part name="P+22" library="supply1" deviceset="V+" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="P+23" library="supply1" deviceset="V+" device=""/>
-<part name="J14" library="MF_Connectors" deviceset="HEADER_01X06" device="_PTH_2.54MM" value="BLE Nano Interface"/>
-<part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="J15" library="MF_Connectors" deviceset="HEADER_01X07" device="_PTH_2.54MM" value="Bluefruit UART friend"/>
+<part name="P+5" library="supply1" deviceset="V+" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2478,9 +2569,9 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <instance part="P+22" gate="1" x="220.98" y="0"/>
 <instance part="GND23" gate="1" x="228.6" y="-12.7"/>
 <instance part="P+23" gate="1" x="-81.28" y="127"/>
-<instance part="J14" gate="G$1" x="175.26" y="-5.08"/>
-<instance part="P+4" gate="1" x="165.1" y="0"/>
-<instance part="GND24" gate="1" x="157.48" y="-12.7"/>
+<instance part="J15" gate="G$1" x="175.26" y="-2.54"/>
+<instance part="P+5" gate="1" x="160.02" y="-7.62"/>
+<instance part="GND25" gate="1" x="160.02" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -2618,10 +2709,10 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <wire x1="228.6" y1="-7.62" x2="228.6" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="PIN1"/>
-<wire x1="172.72" y1="-7.62" x2="157.48" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="157.48" y1="-7.62" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="PIN6"/>
+<wire x1="172.72" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<wire x1="160.02" y1="-17.78" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2798,11 +2889,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <wire x1="60.96" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <label x="48.26" y="93.98" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J14" gate="G$1" pin="PIN5"/>
-<wire x1="172.72" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
-<label x="165.1" y="-17.78" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="D13" class="0">
 <segment>
@@ -2878,66 +2964,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <pinref part="J2" gate="G$1" pin="PIN9"/>
 <wire x1="172.72" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="165.1" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D8" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB0"/>
-<wire x1="-53.34" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="-50.8" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="PIN10"/>
-<wire x1="172.72" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
-<label x="165.1" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D9" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB1"/>
-<wire x1="-53.34" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
-<label x="-50.8" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="PIN11"/>
-<wire x1="172.72" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="165.1" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D10" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB2"/>
-<wire x1="-53.34" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<label x="-50.8" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="PIN12"/>
-<wire x1="172.72" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="165.1" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D11" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB3"/>
-<wire x1="-53.34" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="-50.8" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="PIN13"/>
-<wire x1="172.72" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
-<label x="165.1" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D12" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB4"/>
-<wire x1="-53.34" y1="27.94" x2="-45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="-50.8" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="PIN14"/>
-<wire x1="172.72" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
-<label x="165.1" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -3076,10 +3102,10 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <junction x="-81.28" y="119.38"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="PIN0"/>
-<wire x1="172.72" y1="-5.08" x2="165.1" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="V+"/>
-<wire x1="165.1" y1="-5.08" x2="165.1" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="PIN4"/>
+<wire x1="172.72" y1="-12.7" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="V+"/>
+<wire x1="160.02" y1="-12.7" x2="160.02" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -3107,11 +3133,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <wire x1="101.6" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="104.14" y="109.22" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J14" gate="G$1" pin="PIN2"/>
-<wire x1="172.72" y1="-10.16" x2="165.1" y2="-10.16" width="0.1524" layer="91"/>
-<label x="165.1" y="-10.16" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="TX" class="0">
 <segment>
@@ -3123,11 +3144,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <pinref part="U3" gate="G$1" pin="RXD"/>
 <wire x1="101.6" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <label x="104.14" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J14" gate="G$1" pin="PIN3"/>
-<wire x1="172.72" y1="-12.7" x2="165.1" y2="-12.7" width="0.1524" layer="91"/>
-<label x="165.1" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -3610,11 +3626,89 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <wire x1="-12.7" y1="106.68" x2="-12.7" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P0_0" class="0">
+<net name="MOD" class="0">
 <segment>
-<pinref part="J14" gate="G$1" pin="PIN4"/>
+<pinref part="J15" gate="G$1" pin="PIN0"/>
+<wire x1="172.72" y1="-2.54" x2="165.1" y2="-2.54" width="0.1524" layer="91"/>
+<label x="165.1" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB4"/>
+<wire x1="-53.34" y1="27.94" x2="-45.72" y2="27.94" width="0.1524" layer="91"/>
+<label x="-50.8" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PIN14"/>
+<wire x1="172.72" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<label x="165.1" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CTS" class="0">
+<segment>
+<pinref part="J15" gate="G$1" pin="PIN1"/>
+<wire x1="172.72" y1="-5.08" x2="165.1" y2="-5.08" width="0.1524" layer="91"/>
+<label x="165.1" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB3"/>
+<wire x1="-53.34" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
+<label x="-50.8" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PIN13"/>
+<wire x1="172.72" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<label x="165.1" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TXO" class="0">
+<segment>
+<pinref part="J15" gate="G$1" pin="PIN2"/>
+<wire x1="172.72" y1="-7.62" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
+<label x="165.1" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB2"/>
+<wire x1="-53.34" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<label x="-50.8" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PIN12"/>
+<wire x1="172.72" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+<label x="165.1" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RXI" class="0">
+<segment>
+<pinref part="J15" gate="G$1" pin="PIN3"/>
+<wire x1="172.72" y1="-10.16" x2="165.1" y2="-10.16" width="0.1524" layer="91"/>
+<label x="165.1" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB1"/>
+<wire x1="-53.34" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
+<label x="-50.8" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PIN11"/>
+<wire x1="172.72" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="165.1" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RTS" class="0">
+<segment>
+<pinref part="J15" gate="G$1" pin="PIN5"/>
 <wire x1="172.72" y1="-15.24" x2="165.1" y2="-15.24" width="0.1524" layer="91"/>
 <label x="165.1" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB0"/>
+<wire x1="-53.34" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="-50.8" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PIN10"/>
+<wire x1="172.72" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<label x="165.1" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
